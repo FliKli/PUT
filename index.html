@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<!-- saved from url=(0105)http://localhost:63342/random_number_bot/1.html?_ijt=c7ak02qdbet21amm113fo5k7t2&_ij_reload=RELOAD_ON_SAVE -->
+<html lang="ru">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пятигорск — Туристический портал</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&family=Rubik+Gemstones&family=Ruslan+Display&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="s.css">
+</head>
+    <body>
+
+        <div class="snowflakes" aria-hidden="true">
+            <div class="snowflake">❄</div>
+            <div class="snowflake">❄</div>
+            <div class="snowflake">❄</div>
+            <div class="snowflake">❄</div>
+            <div class="snowflake">❄</div>
+            <div class="snowflake">❄</div>
+            <div class="snowflake">❄</div>
+            <div class="snowflake">❄</div>
+            <div class="snowflake">❄</div>
+            <div class="snowflake">❄</div>
+        </div>
+
+    <!--
+        ---------------------------------------
+        HEADER
+        ---------------------------------------
+    -->
+    <header class="fade-in" style="background-color: bisque;">
+        <div class="logo">Пятигорск Тур</div>
+        <nav>
+            <ul>
+                <li><a href="#top" class="active">Главная</a></li>
+                <li><a href="#attractions">Места</a></li>
+                <li><a href="#route-planner">Маршрут</a></li>
+                <li><a href="#chatbot">Магазины</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="fade-in over" style="background-color: var(--light-bg)">
+        <div class="garland-container">
+            <div class="garland">
+                <!-- Огоньки будут добавлены здесь -->
+            </div>
+        </div>
+    </section>
+
+    <!--
+        ---------------------------------------
+        HERO
+        ---------------------------------------
+    -->
+    <section class="hero fade-in" id="top">
+        <canvas id="hero-3d-canvas" width="796" height="754" style="width: 796px; height: 754px;"></canvas>
+        <div class="hero__content aos-init aos-animate" data-aos="fade-up">
+            <h1>Пятигорск — жемчужина Кавказских Минеральных Вод</h1>
+            <p>Откройте для себя уникальные термальные источники, величественные горные пейзажи и насыщенную культурно-историческую атмосферу города.</p>
+            <p><strong>Планируйте свое путешествие и откройте новые грани Южной России</strong></p>
+        </div>
+            <img class="elka" src="img/sticker (1).png">
+    </section>
+    <!--
+        ---------------------------------------
+        ДОСТОПРИМЕЧАТЕЛЬНОСТИ
+        ---------------------------------------
+    -->
+    <section class="attractions fade-in aos-init" id="attractions" data-aos="fade-up">
+        <h2>Места Пятигорска</h2>
+
+        <div class="attractions__list aos-init" data-aos="fade-up" data-aos-delay="200" id="attraction-list">
+            <div class="attraction-card card hover-zoom" data-type="natural">
+                <img src="img/photo_5386360521214782307_y.jpg" alt="Гора Машук">
+                <h3>Гора Машук</h3>
+                <p>Горная вершина, откуда открывается панорамный вид на город и окрестности.</p>
+                <p class="info">Часы работы: круглосуточно<br>Билеты: подъем на канатной дороге ~300 руб.<br>Адрес: центр города</p>
+            </div>
+            <div class="attraction-card card hover-zoom" data-type="natural">
+                <img src="img/photo_5386404093658000281_y.jpg" alt="Минеральные источники">
+                <h3>Минеральные источники</h3>
+                <p>Знаменитые лечебные воды, доступные в бюветах и источниках.</p>
+                <p class="info">Часы работы: 8:00 - 20:00<br>Билеты: бесплатно<br>Адрес: парк «Цветник»</p>
+            </div>
+            <div class="attraction-card card hover-zoom" data-type="cultural">
+                <img src="img/photo_5386404093658000282_y.jpg" alt="Парк Цветник">
+                <h3>Парк Цветник</h3>
+                <p>Исторический парк с клумбами, скульптурами и кафе, место отдыха горожан.</p>
+                <p class="info">Часы работы: 8:00 - 22:00<br>Билеты: бесплатно<br>Адрес: ул. Буачидзе, центр</p>
+            </div>
+            <div class="attraction-card card hover-zoom" data-type="historical">
+                <img src="img/photo_5386360521214782318_y.jpg" alt="Лермонтовская Галерея">
+                <h3>Лермонтовские места</h3>
+                <p>Места, связанные с жизнью и творчеством М.Ю. Лермонтова (дом-музей, памятник).</p>
+                <p class="info">Часы работы: 10:00 - 18:00<br>Билеты: от 100 руб.<br>Адрес: Лермонтовская ул.</p>
+            </div>
+            <div class="attraction-card card hover-zoom" data-type="cultural">
+                <img src="img/proval.png" alt="Провалъ">
+                <h3>Провалъ</h3>
+                <p> Пещера что когда-то провалилась, открыла проход к источнику.</p>
+                <p class="info">Часы работы: 9:00-20:00 <br>Бесплатно <br>Адрес: у подножия Машука</p>
+            </div>
+            <div class="attraction-card card hover-zoom" data-type="cultural">
+                <img src="img/photo_5386404093658000439_y.jpg" alt="Ворота солнца">                
+                <h3>Ворота солнца</h3>
+                <p>Проходя через ворота надо загадать желание.</p>
+                <p class="info">Часы работы: круглосуточно <br>Бесплатно <br>Адрес: Бульвар Гагарина</p>            
+            </div>
+            <div class="attraction-card card hover-zoom" data-type="cultural">
+                <img src="img/photo_5386360521214782514_y.jpg" alt="Фонтан Деды">                
+                <h3>Фонтан Деды</h3>
+                <p>Таинственный фонтан что исполняет желания.</p>
+                <p class="info">Часы работы: круглосуточно <br>Бесплатно <br>Адрес:проспект Кирова, 29А </p>            
+            </div>
+            <div class="attraction-card card hover-zoom" data-type="cultural">
+                <img src="img/photo_5386360521214782510_y.jpg" alt="Эолова Арфа">                
+                <h3>Эолова Арфа</h3>
+                <p>Беседка что играет мелодию на склонах Машука.</p>
+                <p class="info">Часы работы: круглосуточно <br>Бесплатно <br>Адрес: Эммануэлевский парк</p>            
+            </div>
+            <div class="attraction-card card hover-zoom" data-type="cultural">
+                <img src="img/photo_5386360521214782488_y.jpg" alt="Орёл">                 
+                <h3>Орёл</h3>
+                <p>Смотрит на город.</p>
+                <p class="info">Часы работы: круглосуточно <br>Бесплатно <br>Адрес: ул. Воровского</p>            
+            </div>
+            <div class="attraction-card card hover-zoom" data-type="cultural">
+                <div class="iv-embed" style="margin:0 auto;padding:0;border:0;width: 100%; border-radius: 8px;"><div class="iv-v" style="display:block;margin:0;padding:1px;border:0;background:#000; border-radius: 8px;"><iframe class="iv-i" style="display:block;margin:0;padding:0;border:0; border-radius: 8px;" src="https://open.ivideon.com/embed/v3/?server=100-3d215c9c51446d689ca1dd3b20f192ec&amp;camera=0&amp;width=&amp;height=&amp;lang=ru" width="100%" height="180" border-radius="8px" frameborder="0" allow="autoplay; fullscreen; clipboard-write; picture-in-picture"></iframe></div><div class="iv-b" style="display:block;margin:0;padding:0;border:0; border-radius: 8px;"><div style="float:right;text-align:right;padding:0 0 10px;line-height:10px;"><a class="iv-a" style="font:10px Verdana,sans-serif;color:inherit;opacity:.6;" href="https://www.ivideon.com/" target="_blank">Powered by Ivideon</a></div><div style="clear:both;height:0;overflow:hidden;">&nbsp;</div><script src="https://open.ivideon.com/embed/v3/embedded.js"></script></div></div>
+                <h3>Канатная дорога</h3>
+                <p>Живописный подъем на гору Машук по канатной дороге.</p>
+                <p class="info">Часы работы: 9:00 - 20:00<br>Билеты: ~300 руб.<br>Адрес: у подножия Машука</p>
+            </div>
+        </div>
+    </section>
+
+     <!--Кафешки-->
+     <section class="attractions fade-in aos-init" id="attractions" data-aos="fade-up">
+        <h2>Кафейни Пятигорска</h2>
+        <div class="attractions__list aos-init" data-aos="fade-up" data-aos-delay="200" id="attraction-list">
+            <div class="attraction-card card hover-zoom" data-type="historical">
+                <img src="img/photo_5386360521214782777_y.jpg" alt="Happy Coffee">
+                <h3>Happy Coffee</h3>
+                <p>Отличное место для отдыха и перекуса.</p>
+                <p class="info">Часы работы:пн-чт 10:00–22:00; пт-вс 10:00–23:00<br>Цены: от 135 до 750+<br>Адрес: бул. Гагарина, 2Б</p>
+            </div>
+            <div class="attraction-card card hover-zoom" data-type="historical">
+                <img src="img/photo_5386360521214782318_y.jpg" alt="Горы">
+                <h3>Горы</h3>
+                <p>!!!</p>
+                <p class="info">Часы работы: 10:00 - 18:00<br>Цены: <br>Адрес:</p>
+            </div>
+        </div>
+    </section>
+
+    <!--
+        ---------------------------------------
+        ОПТИМАЛЬНЫЙ МАРШРУТ
+        ---------------------------------------
+    -->
+    <section class="route-planner fade-in aos-init" id="route-planner" data-aos="fade-up">
+        <h2>Оптимальный маршрут</h2>
+        <p>Укажите ваши предпочтения, и мы предложим вам оптимальный маршрут для знакомства с Пятигорском.</p>
+        <form class="route-form aos-init" id="route-form" data-aos="fade-up" data-aos-delay="100">
+            <select name="type" required="">
+                <option value="">Тип Мест</option>
+                <option value="natural">Природные</option>
+                <option value="cultural">Культурные</option>
+                <option value="historical">Исторические</option>
+            </select>
+            <input type="number" name="budget" placeholder="Бюджет (руб.)" required="">
+            <input type="number" name="days" placeholder="Количество дней" required="">
+            <select name="transport" required="">
+                <option value="">Удобный транспорт</option>
+                <option value="foot">Пешком</option>
+                <option value="taxi">Такси</option>
+                <option value="bus">Общественный транспорт</option>
+            </select>
+            <button type="submit">Подобрать маршрут</button>
+        </form>
+        <div class="route-result aos-init" id="route-result" data-aos="fade-up" data-aos-delay="200">
+        </div>
+    </section>
+
+    <!--магазы-->
+    <section class="attractions fade-in aos-init" id="chatbot" data-aos="fade-up">
+        <h2>Магазин Пятигорска</h2>
+        <div class="attractions__list aos-init" data-aos="fade-up" data-aos-delay="200" id="attraction-list">
+            <div class="attraction-card card hover-zoom" data-type="historical">
+                <img src="img/sticker.png" alt="Vf">
+                <h3>Елки Иголки</h3>
+                <p>Магазин игрушек</p>
+                <p class="info">Часы работы:пн-чт 10:00–22:00; пт-вс 10:00–23:00</p>
+            </div>
+            <div class="attraction-card card hover-zoom" data-type="historical">
+                <img src="img/sticker (6).png" alt="pp">
+                <h3>Подарок</h3>
+                <p>!!!</p>
+                <p class="info">Часы работы: 10:00 - 18:00</p>
+            </div>
+        </div>
+    </section>
+
+    <!--
+        ---------------------------------------
+        КОНТАКТЫ
+        ---------------------------------------
+    -->
+    <section class="contacts fade-in aos-init" id="contacts" data-aos="fade-up">
+        <h2>Контакты</h2>
+        <div class="contact-info">
+            <p>Адрес: г. Пятигорск, ул. Примерная, д. 1</p>
+            <p>E-mail: <a href="mailto:info@visit-pyatigorsk.ru">info@visit-pyatigorsk.ru</a></p>
+            <p>Телефон: <a href="tel:+71234567890">8 (800) 555-35-35</a></p>
+            <p>Социальные сети: <a href="http://localhost:63342/random_number_bot/1.html?_ijt=c7ak02qdbet21amm113fo5k7t2&amp;_ij_reload=RELOAD_ON_SAVE#">VK</a>, <a href="http://localhost:63342/random_number_bot/1.html?_ijt=c7ak02qdbet21amm113fo5k7t2&amp;_ij_reload=RELOAD_ON_SAVE#">Instagram</a></p>
+        </div>
+        <form class="contact-form card aos-init" data-aos="fade-up" data-aos-delay="100">
+            <input type="text" placeholder="Ваш телефон или e-mail" required="">
+            <textarea placeholder="Ваш вопрос или сообщение" rows="4" required=""></textarea>
+            <button type="submit">Отправить</button>
+            <p class="note">Нажимая на кнопку, вы соглашаетесь с обработкой персональных данных.</p>
+        </form>
+    </section>
+
+    <!--
+        ---------------------------------------
+        FAQ
+        ---------------------------------------
+    -->
+    <section class="faq fade-in aos-init" id="faq" data-aos="fade-up">
+        <h2>Часто задаваемые вопросы</h2>
+        <div class="faq__item card aos-init" data-aos="fade-up" data-aos-delay="100">
+            <h3>Когда лучше всего приезжать в Пятигорск?</h3>
+            <p>Оптимально посетить город весной или осенью, когда погода мягкая, а пейзажи особенно живописны.</p>
+        </div>
+        <div class="faq__item card aos-init" data-aos="fade-up" data-aos-delay="200">
+            <h3>Какие минеральные воды можно попробовать?</h3>
+            <p>Пятигорск известен своими сероводородными и углекислыми водами, которые можно попробовать в бюветах.</p>
+        </div>
+        <div class="faq__item card aos-init" data-aos="fade-up" data-aos-delay="300">
+            <h3>Сколько стоит подъем на канатной дороге?</h3>
+            <p>Средняя стоимость ~300-350 руб. за поездку, цены уточняйте на месте.</p>
+        </div>
+        <div class="faq__item card aos-init" data-aos="fade-up" data-aos-delay="400">
+            <h3>Где можно купить сувениры и памятные вещи?</h3>
+            <p>Сувенирные лавки и магазины расположены в центральной части города, около парка «Цветник» и вблизи бюветов.</p>
+        </div>
+    </section>
+
+
+   
+
+    <!--
+        ---------------------------------------
+        FOOTER
+        ---------------------------------------
+    -->
+    <footer class="fade-in">
+        <p>2024  ©  Туристический  портал  Пятигорска</p>
+        <p>Все  права  защищены.  Информация  предназначена  для  планирования  туристических  поездок.</p>
+    </footer>
+
+    <!-- Подключение библиотек JS -->
+    <script src="./Пятигорск — Туристический портал_files/three.min.js.загрузка"></script>
+    <script src="./Пятигорск — Туристический портал_files/OrbitControls.min.js.загрузка"></script>
+    <script src="./Пятигорск — Туристический портал_files/aos.js.загрузка"></script>
+
+    <script>
+        
+        // -----------------------------------
+        // FAQ раскрытие
+        // -----------------------------------
+        document.querySelectorAll('.faq__item').forEach(item => {
+            const question = item.querySelector('h3');
+            question.addEventListener('click', () => {
+                item.classList.toggle('open');
+            });
+        });
+    </script>
+
+       <script src="snow.js"></script>
+       <script src="gerland.js"></script>
+    </body>
+</html>
